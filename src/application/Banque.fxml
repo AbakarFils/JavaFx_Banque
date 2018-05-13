@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <bottom>
+      <AnchorPane layoutX="800.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #20120F;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="200.0" layoutY="84.0" prefHeight="219.0" prefWidth="413.0" style="-fx-background-color: #9C2B27;">
+               <children>
+                  <TextField fx:id="username_txt" layoutX="164.0" layoutY="60.0" prefHeight="29.0" prefWidth="135.0" promptText="username/mail" />
+                  <PasswordField fx:id="password_txt" layoutX="163.0" layoutY="103.0" prefHeight="29.0" prefWidth="134.0" promptText="password" />
+                  <Button fx:id="connection_btn" layoutX="159.0" layoutY="147.0" mnemonicParsing="false" onAction="#connection" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: #E45652;" text="connection" textFill="#d1c2c2" />
+                  <Label layoutX="187.0" layoutY="21.0" prefHeight="27.0" prefWidth="69.0" text="Sing In">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="123.0" fitWidth="178.0" layoutX="42.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LoginRed.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_CENTER" layoutX="187.0" layoutY="29.0" prefHeight="34.0" prefWidth="451.0" style="-fx-background-color: #9C2B27;" text="Bienvenu Dans La Banque" textAlignment="CENTER" textFill="#e4dada">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

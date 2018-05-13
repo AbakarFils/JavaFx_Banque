@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewClient.ClientController">
+   <children>
+      <Label layoutX="32.0" layoutY="57.0" text="Nom" />
+      <Label layoutX="32.0" layoutY="145.0" text="Prenom" />
+      <Label layoutX="31.0" layoutY="220.0" prefHeight="17.0" prefWidth="52.0" text="Email" />
+      <Label layoutX="29.0" layoutY="293.0" prefHeight="17.0" prefWidth="52.0" text="Adresse" />
+      <TextField fx:id="nom_txt" layoutX="34.0" layoutY="97.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="419.0" />
+      <TextField fx:id="prenom_txt" layoutX="32.0" layoutY="182.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="419.0" />
+      <TextField fx:id="email_txt" layoutX="31.0" layoutY="250.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="419.0" />
+      <TextField fx:id="adress_txt" layoutX="32.0" layoutY="331.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="419.0" />
+      <ImageView fitHeight="169.0" fitWidth="200.0" layoutX="369.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="image_btn" layoutX="254.0" layoutY="253.0" mnemonicParsing="false" onAction="#choisirImage" prefHeight="25.0" prefWidth="119.0" text="Choisir une Image" AnchorPane.bottomAnchor="122.0" AnchorPane.leftAnchor="254.0" AnchorPane.topAnchor="253.0" />
+      <Button fx:id="creerCompte_btn" layoutX="397.0" layoutY="356.0" mnemonicParsing="false" onAction="#Creer_Compte" prefHeight="36.0" prefWidth="110.0" text="Creer Un Compte" AnchorPane.leftAnchor="397.0" AnchorPane.rightAnchor="93.0" />
+      <Button fx:id="sauvegarder_btn" layoutX="254.0" layoutY="356.0" mnemonicParsing="false" onAction="#sauvegarder" prefHeight="36.0" prefWidth="97.0" text="Sauvergarder" AnchorPane.leftAnchor="254.0" />
+      <ImageView fx:id="image_view" fitHeight="157.0" fitWidth="253.0" layoutX="254.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="93.0" />
+   </children>
+</AnchorPane>

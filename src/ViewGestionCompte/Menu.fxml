@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ViewGestionCompte.MenuController">
+   <children>
+      <Button fx:id="courant" layoutX="14.0" layoutY="42.0" mnemonicParsing="false" onAction="#Creer_CompteCpourant" prefHeight="61.0" prefWidth="161.0" text="Creer Compte Courant" />
+      <Button fx:id="compteEpargne" layoutX="18.0" layoutY="109.0" mnemonicParsing="false" onAction="#Creer_CompteEpargne" prefHeight="67.0" prefWidth="154.0" text="Creer Compte Epargne" />
+      <Button fx:id="Client" layoutX="18.0" layoutY="193.0" mnemonicParsing="false" onAction="#gest_Client" prefHeight="67.0" prefWidth="154.0" text="Gestion Client" />
+      <Button fx:id="btn_gest_emp" layoutX="332.0" layoutY="52.0" mnemonicParsing="false" onAction="#Gestion_Emp" prefHeight="67.0" prefWidth="154.0" text="Gestion Emplyes" />
+   </children>
+</AnchorPane>
